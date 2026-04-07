@@ -70,7 +70,7 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_Sharanya() {
         Team t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Sharanya G."), "Team should contain Sharanya G.");
+        assertTrue(t.getMembers().contains("Sharanya"), "Team should contain Sharanya");
     }
 
 }
